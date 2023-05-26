@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Red Raven Stories</string>
-    <string name="login_topic">Welcome</string>
+    <string name="login_topic">Welcome!</string>
+    <string name="loginpage_loginbutton">Login</string>
 </resources>
