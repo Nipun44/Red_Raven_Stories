@@ -24,45 +24,40 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName4"
-        android:layout_width="301dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/textf1"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:padding="20dp"
-        android:text="Name"
-        android:textAlignment="textStart"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="301dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="152dp"
-        android:background="@drawable/textf1"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:padding="20dp"
-        android:text="Name"
-        android:textAlignment="textStart"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="163dp"
         android:layout_height="80dp"
         android:layout_marginStart="124dp"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="77dp"
         android:backgroundTint="@color/design_default_color_error"
         android:text="@string/loginpage_loginbutton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword3" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
